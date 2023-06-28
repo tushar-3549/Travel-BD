@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,500;0,700;0,900;1,300;1,400;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif;
+                    'Lato', sans-serif */
+}
+
+.front-header {
+    background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)), url(img/front.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cusf1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* service part start  */
+.service-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.06);
+    transition: 0.5s;
+}
+
+.service-item:hover {
+    background: var(--success);
+    cursor: pointer;
+}
+
+.service-item:hover {
+    color: var(--light);
+}
+
+/* service part end  */
+
+/* destination part start  */
+.destination img {
+    transition: 0.5s;
+}
+
+.destination a:hover img {
+    transform: scale(1.1);
+}
+
+.destination .img-container {
+    height: 100%;
+}
+
+.destination .img-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* destination part end  */
+
+/* package part start  */
+.package-item {
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.06);
+}
+
+.package-item img {
+    transition: 0.5s;
+}
+
+.package-item:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.package-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.package-item .overflow-hidden {
+    flex-grow: 1;
+}
+
+.package-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* package part end  */
+
+
+/* main navbar design starts  */
+
+.navbar {
+    background-color: green;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* main navbar design ends  */
